@@ -1,0 +1,2 @@
+Acer;1TB;2020;true
+MAC Apple;2TB SSD;2020;true

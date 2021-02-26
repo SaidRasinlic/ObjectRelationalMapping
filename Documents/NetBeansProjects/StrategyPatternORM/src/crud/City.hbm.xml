@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 7, 2020 3:01:20 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="sakila" name="crud.City" optimistic-lock="version" table="city">
+    <id name="cityId" type="java.lang.Integer">
+      <column name="city_id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="city" type="string">
+      <column length="50" name="city" not-null="true"/>
+    </property>
+    <property name="countryId" type="short">
+      <column name="country_id" not-null="true"/>
+    </property>
+    <property name="lastUpdate" type="timestamp">
+      <column length="19" name="last_update" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>

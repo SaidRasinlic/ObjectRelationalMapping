@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_221" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="second.model.Computers">
+    <void property="computerAge">
+     <int>2020</int>
+    </void>
+    <void property="computerMemory">
+     <string>1TB</string>
+    </void>
+    <void property="computerName">
+     <string>Acer</string>
+    </void>
+    <void property="computerStockAvailabilty">
+     <boolean>true</boolean>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="second.model.Computers">
+    <void property="computerAge">
+     <int>2020</int>
+    </void>
+    <void property="computerMemory">
+     <string>2TB SSD </string>
+    </void>
+    <void property="computerName">
+     <string>MAC Apple</string>
+    </void>
+    <void property="computerStockAvailabilty">
+     <boolean>true</boolean>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
